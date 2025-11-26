@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Big 6</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+</head>
+<body>
+
+<div class="navbar">
+    <button onclick="randomAlert('Home')">Home</button>
+    <button onclick="randomAlert('Videos')">Videos</button>
+    <button onclick="randomAlert('Images')">Images</button>
+    <button onclick="randomAlert('More')">More</button>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search...">
+        <button onclick="searchNow()">Search</button>
+    </div>
+</div>
+
+<div class="container">
+
+<div>
+    <div class="card">
+        <h2>🔥 Trending Topics</h2>
+        <ul>
+            <li>Top 10 Eithan gay bar</li>
+            <li>Frank The handsome creature</li>
+            <li>roz the mang inasal destroyer</li>
+        </ul>
+        <button onclick="randomAlert('Trending')">See more</button>
+    </div>
+
+    <div class="card">
+        <h2>📰 Random News</h2>
+        <p><b>Breaking:</b> Programmers discover code that writes itself!</p>
+        <button onclick="randomAlert('News')">Read article</button>
+    </div>
+
+    <div class="card">
+        <h2>🎮 Fun Zone</h2>
+        <button onclick="randomAlert('Game 1')">Play Game 1</button>
+        <button onclick="randomAlert('Game 2')">Play Game 2</button>
+    </div>
+</div>
+
+<div>
+    <div class="card">
+        <h3>Quick Tools</h3>
+        <button onclick="randomAlert('Login')">Login</button>
+        <button onclick="randomAlert('Sign Up')">Sign Up</button>
+    </div>
+
+    <div class="card">
+        <h3>Random Number Generator</h3>
+        <button onclick="generateNum()">Generate</button>
+        <h2 id="rnd">0000</h2>
+    </div>
+
+    <div class="card">
+        <h3>Extra Random Thing</h3>
+        <p>This box exists to look real 👍</p>
+        <button onclick="randomAlert('Extra')">Click Me</button>
+    </div>
+</div>
+
+</div>
+
+<div class="footer">
+    Built by Group 6
+</div>
+
+</body>
+</html>

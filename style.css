@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+/* Navbar */
+.navbar {
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar button {
+    border: none;
+    background: none;
+    padding: 8px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    border-radius: 6px;
+}
+
+.navbar button:hover {
+    background: #e7e7e7;
+}
+
+.navbar button:active {
+    transform: scale(0.95);
+    background: #cccccc;
+}
+
+/* Search Bar */
+.search-box {
+    margin-left: auto;
+    display: flex;
+    gap: 6px;
+}
+
+.search-box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 200px;
+}
+
+.search-box button {
+    padding: 8px 12px;
+    border: none;
+    background: #0078ff;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.search-box button:hover {
+    background: #005fcc;
+}
+
+.search-box button:active {
+    transform: scale(0.95);
+}
+
+/* Layout */
+.container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+/* Cards */
+.card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 15px;
+}
+
+.card button {
+    padding: 8px 12px;
+    border: none;
+    background: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+.card button:hover {
+    background: #1e7e34;
+}
+
+.card button:active {
+    transform: scale(0.92);
+}
+
+ul {
+    padding-left: 18px;
+}
+
+/* Footer */
+.footer {
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+}
